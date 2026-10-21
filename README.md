@@ -19,6 +19,7 @@ and publish what that work teaches.
 | [WAF Rule Watch](https://ba-cybersecurity.com/radar/waf/) | What WAF vendors published in the last 90 days, and which actively exploited vulnerabilities they name |
 | [What an AWS WAF log can and cannot tell you](https://ba-cybersecurity.com/writing/aws-waf-logs) | Three habits from running one in production |
 | [Exposed endpoint? Assess it. Don't scope it out.](https://ba-cybersecurity.com/writing/assess-dont-scope-out) | On scoping external assessments |
+| [PHP's two critical RCEs (CVE-2026-109618, CVE-2026-109619)](https://ba-cybersecurity.com/writing/php-rce-cve-2026-109618) | What to do the night of the release, and what a WAF can and cannot do |
 
 #### Links
 
