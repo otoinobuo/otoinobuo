@@ -17,6 +17,8 @@ and publish what that work teaches.
 |---|---|
 | [Japan Breach Radar](https://ba-cybersecurity.com/radar/) | Daily register of cyber incidents disclosed by Japanese organisations, in English and Japanese ([US edition](https://ba-cybersecurity.com/radar/us/)) |
 | [WAF Rule Watch](https://ba-cybersecurity.com/radar/waf/) | What WAF vendors published in the last 90 days, and which actively exploited vulnerabilities they name |
+| [PHP2Shell Watch](https://ba-cybersecurity.com/radar/php2shell/) | How many public reports say an attack using PHP2Shell (CVE-2026-109618, CVE-2026-109619) succeeded, with every report on exploitation status |
+| [Radar data archive](https://github.com/otoinobuo/ba-radar-data) | Daily snapshots of all four radars, kept as published (CC BY 4.0) |
 | [What an AWS WAF log can and cannot tell you](https://ba-cybersecurity.com/writing/aws-waf-logs) | Three habits from running one in production |
 | [Exposed endpoint? Assess it. Don't scope it out.](https://ba-cybersecurity.com/writing/assess-dont-scope-out) | On scoping external assessments |
 | [PHP's two critical RCEs (CVE-2026-109618, CVE-2026-109619)](https://ba-cybersecurity.com/writing/php-rce-cve-2026-109618) | What to do the night of the release, and what a WAF can and cannot do |
