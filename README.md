@@ -1,17 +1,20 @@
-### Nobuo Otoi — web application defense, Tokyo
+### Nobuo Otoi — web application defense research, Tokyo
 
-Cybersecurity practitioner and researcher at [BA Cybersecurity](https://ba-cybersecurity.com).
-I operate web application firewalls in front of production web services and run vulnerability assessments,
-and publish what that work teaches.
+Independent cybersecurity researcher based in Tokyo, publishing as [BA Cybersecurity](https://ba-cybersecurity.com).
 
-- **WAF operation** — detection, tuning and false-positive handling for OWASP CRS and managed WAFs (AWS WAF, CDN edge).
-  Current work: predicting the effect of a configuration change before it is applied.
-- **Vulnerability assessment** — web application penetration testing, source-code review and cloud configuration review (AWS, Azure),
-  with findings turned into prioritized fixes.
-- **Background** — 20 years in financial-sector IT, from infrastructure to application development to security leadership.
-  Information Security Specialist (IPA, Japan).
+- **Web application firewalls** — false positives of OWASP CRS and managed WAFs: how to measure them,
+  and how to predict the effect of a configuration change before it is deployed. The main line of research.
+- **Vulnerability diagnosis** — source-referenced, AI-assisted diagnosis of web application vulnerabilities.
+- **Email security measurement** — email authentication and transport security, measured from the receiving side.
 
-#### Public work
+#### Papers and talks
+
+| | |
+|---|---|
+| [What the Inbox Remembers: Receiver-Side Longitudinal Measurement of Email Authentication and Inbound TLS, 2005–2026](https://ssrn.com/abstract=7552629) | Preprint, SSRN, October 2026 (doi:10.2139/ssrn.7552629) |
+| [How Often Do Spam Filters' Hidden-Text Rules Flag Current Benign HTML Email?](https://ken.ieice.org/ken/paper/20261203h2aE/eng/) | Talk, IEICE Technical Committee on Internet Architecture (IA), 3 December 2026 |
+
+#### Datasets and writing
 
 | | |
 |---|---|
