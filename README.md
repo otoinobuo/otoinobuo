@@ -29,4 +29,4 @@ Independent cybersecurity researcher based in Tokyo, publishing as [BA Cybersecu
 
 #### Links
 
-[Website](https://ba-cybersecurity.com) · [LinkedIn](https://www.linkedin.com/in/nobuo-o-046667373/) · [ORCID 0009-0001-1445-3612](https://orcid.org/0009-0001-1445-3612)
+[Website](https://ba-cybersecurity.com) · [LinkedIn](https://www.linkedin.com/in/nobuo-o-046667373/) · [ORCID 0009-0001-1445-3612](https://orcid.org/0009-0001-1445-3612) · [Google Scholar](https://scholar.google.com/citations?user=VAyhjUUAAAAJ)
