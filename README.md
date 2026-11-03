@@ -19,7 +19,7 @@ Independent cybersecurity researcher based in Tokyo, publishing as [BA Cybersecu
 | | |
 |---|---|
 | [Japan Breach Radar](https://ba-cybersecurity.com/radar/) | Daily register of cyber incidents disclosed by Japanese organisations, in English and Japanese ([US edition](https://ba-cybersecurity.com/radar/us/)) |
-| [WAF Rule Watch](https://ba-cybersecurity.com/radar/waf/) | What WAF vendors published in the last 90 days, and which actively exploited vulnerabilities they name |
+| [WAF Rule Watch](https://ba-cybersecurity.com/radar/waf/) | What WAF vendors published in the last 90 days, and which actively exploited vulnerabilities they name. Listed in [Awesome-WAF](https://github.com/0xInfection/Awesome-WAF). |
 | [PHP2Shell Watch](https://ba-cybersecurity.com/radar/php2shell/) | How many public reports say an attack using PHP2Shell (CVE-2026-109618, CVE-2026-109619) succeeded, with every report on exploitation status |
 | [Ransomware Radar](https://ba-cybersecurity.com/radar/ransomware/) | Ransomware leak-site claims worldwide and how publicly released negotiations go: tactics, opening demands, prices at payment and discounts. Since 24 October 2026, in English and Japanese |
 | [Radar data archive](https://github.com/otoinobuo/ba-radar-data) | Daily snapshots of all five radars, kept as published (CC BY 4.0) |
