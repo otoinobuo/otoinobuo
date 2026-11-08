@@ -41,4 +41,4 @@ All results and their status: [ba-cybersecurity.com/research](https://ba-cyberse
 
 #### Links
 
-[Research](https://ba-cybersecurity.com/research/) · [ORCID 0009-0001-1445-3612](https://orcid.org/0009-0001-1445-3612) · [Google Scholar](https://scholar.google.com/citations?user=VAyhjUUAAAAJ) · [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=13422298) · [LinkedIn](https://www.linkedin.com/in/nobuo-o-046667373/)
+[Research](https://ba-cybersecurity.com/research/) · [ORCID 0009-0001-1445-3612](https://orcid.org/0009-0001-1445-3612) · [Google Scholar](https://scholar.google.com/citations?user=VAyhjUUAAAAJ) · [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=13422298) 
