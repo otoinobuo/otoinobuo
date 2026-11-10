@@ -42,3 +42,5 @@ All results and their status: [ba-cybersecurity.com/research](https://ba-cyberse
 #### Links
 
 [Research](https://ba-cybersecurity.com/research/) · [ORCID 0009-0001-1445-3612](https://orcid.org/0009-0001-1445-3612) · [Google Scholar](https://scholar.google.com/citations?user=VAyhjUUAAAAJ) · [SSRN](https://papers.ssrn.com/sol3/cf_dev/AbsByAuth.cfm?per_id=13422298) 
+
+<sub>Nobuo Otoi (乙井信男) as ba-cybersecurity.com</sub>
