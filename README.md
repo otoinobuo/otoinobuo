@@ -6,7 +6,7 @@ Independent cybersecurity researcher in Tokyo, publishing as [ba-cybersecurity.c
 
 #### Recent results
 
-Errors found in two IETF documents already approved for publication (SUIT, CRI) and in one individual draft (ASRA), each shown with a counterexample and answered by an author on the IETF list; flaws reported to widely used software and fixed; published cryptanalysis values improved or corrected.
+Errors found in two IETF documents already approved for publication (SUIT, CRI) and in one individual draft (ASRA), each shown with a counterexample and answered by an author on the IETF list; flaws reported to widely used software and fixed; published cryptanalysis values improved, corrected or proved optimal.
 
 | | |
 |---|---|
@@ -15,8 +15,11 @@ Errors found in two IETF documents already approved for publication (SUIT, CRI) 
 | [ASPA and ASRA (IETF SIDROPS)](https://ba-cybersecurity.com/research/aspa-asra-verification/) | ASPA route-leak detection proved correct in Lean 4 for paths of any length; the proposed ASRA extension can mark a correct route Invalid. Counterexample and proved fix; the lead author replied that the algorithms will be re-checked. [Code](https://github.com/otoinobuo/aspa-verify) |
 | [FreeRADIUS](https://ba-cybersecurity.com/research/freeradius-teap/) | TEAP could accept a client without verifying any MAC. Reproduced and reported; fixed in source (v3.2.x), credited in the commit. |
 | [Langfuse](https://ba-cybersecurity.com/research/langfuse-organization-invite/) | Any member, whatever their role, could invite users into the organization by naming a project of another organization. Reported; fixed and listed in the Hall of Fame on Langfuse's responsible-disclosure page. |
+| [Mealie](https://ba-cybersecurity.com/research/mealie-notifier-reassignment/) | Any user could move an event notifier into another group or household by sending the tenant fields in an update, and then receive that household's activity. Reported; fixed in 3.31.0 ([GHSA-qwhr-6537-wj7f](https://github.com/mealie-recipes/mealie/security/advisories/GHSA-qwhr-6537-wj7f), Moderate). |
+| [python-cwt (COSE)](https://ba-cybersecurity.com/research/cose-duplicate-label/) | A signed or encrypted COSE message with the same protected-header label twice was verified, silently keeping the last value, where RFC 9052 requires rejection. Reported; fixed the same day and released in 4.0.0. |
 | [ARADI (NSA cipher)](https://ba-cybersecurity.com/research/aradi-6r-optimum/) | In CLAASP's model, the best six-round differential trail has weight 82, not the 84 that Table 4 of *CLAASPing ARADI* prints as optimal; lower bound from 945 DRAT-checked subproblems. Not an attack. [Code](https://github.com/otoinobuo/aradi-6r-optimum) |
 | [Ascon](https://ba-cybersecurity.com/research/ascon-active-sboxes/) | Characteristics with fewer active S-boxes than the best published ones we found: 42 over 4 rounds (was 43), 68 over 5 (was 72). Not an attack. [Code](https://github.com/otoinobuo/ascon-trails) |
+| [SPECK128 (NSA cipher)](https://ba-cybersecurity.com/research/speck128-12-rounds/) | No 12-round differential characteristic of weight 65 or less exists, so the known best weight 66 is optimal; DRAT-certified. Not an attack. [Preprint](https://doi.org/10.5281/zenodo.24211677) |
 | [ECDSA weak-key rule (CA/B Forum draft ballot)](https://ba-cybersecurity.com/research/ecdsa-scalar-rule/) | The proposed rule rejects private scalars below 256 but accepts n − k and k⁻¹, recovered by the same search at the same cost. Keys derived from the eight eMudhra incident keys; Lean 4 proof. The drafter agreed they are as easy to attack but declined the change, citing no real-world cases. [Code](https://github.com/otoinobuo/ecdsa-scalar-verify) |
 
 All results and their status: [ba-cybersecurity.com/research](https://ba-cybersecurity.com/research/)
@@ -29,6 +32,7 @@ All results and their status: [ba-cybersecurity.com/research](https://ba-cyberse
 | [Hidden to Whom? Invisible Text in Ordinary HTML Email and the Rules Against It](https://doi.org/10.21203/rs.3.rs-11230329/v1) | Preprint, Research Square, November 2026 |
 | [How Often Do Spam Filters' Hidden-Text Rules Flag Current Benign HTML Email?](https://ba-cybersecurity.com/research/hidden-text-benign-email/) | Talk, IEICE Technical Committee on Internet Architecture (IA), 3 December 2026 |
 | [Japanese municipal websites: hosting and RPKI](https://ba-cybersecurity.com/research/jp-municipal-hosting-rpki/) | Dataset, Zenodo, doi:10.5281/zenodo.23692415 |
+| [RFC 10070 client-authentication audience: five open-source OAuth servers](https://ba-cybersecurity.com/research/rfc10070-audience-conformance/) | Conformance note, November 2026: all five still accept the token-endpoint URL that RFC 10070 forbids. Not a vulnerability. [Code](https://github.com/otoinobuo/rfc10070-aud-conformance) |
 
 #### Radars and writing
 
